@@ -1,0 +1,22 @@
+
+spring:
+  mail:
+    host: smtp.aliyun.com
+    port: 465
+#    host: smtp.qq.com
+#    port: 587
+#    username: 1992942606@qq.com
+#    password: lmqppovowdgkeegg
+    username: cgf123456789@aliyun.com
+    password: fudan20150607.
+    default-encoding: UTF-8
+    test-connection: true #????
+    properties:
+      mail:
+        smtp:
+          auth: true
+          enable: true
+          ssl:
+            enable: true
+server:
+  port: 8888
